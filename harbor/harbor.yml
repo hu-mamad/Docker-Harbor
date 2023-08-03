@@ -4,8 +4,8 @@ http:
 
 https:
   port: 443
-  certificate: /etc/docker/certs.d/harbor.shomamamama.com/harbor.shomamamama.com.cert
-  private_key: /etc/docker/certs.d/harbor.shomamamama.com/harbor.shomamamama.com.key
+  certificate: /etc/docker/certs.d/harbor.shomamamama.com/fullchain1.pem
+  private_key: /etc/docker/certs.d/harbor.shomamamama.com/privkey1.pem
 
 
 

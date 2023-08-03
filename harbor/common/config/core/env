@@ -22,8 +22,8 @@ PORTAL_URL=http://portal:8080
 TOKEN_SERVICE_URL=http://core:8080/service/token
 HARBOR_ADMIN_PASSWORD=Harbor12345
 MAX_JOB_WORKERS=10
-CORE_SECRET=58yxH7UxzB9H4OHM
-JOBSERVICE_SECRET=totHyeUwsJ5heWIo
+CORE_SECRET=HoKVI9YLzJAqmPIT
+JOBSERVICE_SECRET=jUFIH8aKZPjgx2g7
 WITH_NOTARY=False
 WITH_TRIVY=False
 CORE_URL=http://core:8080
@@ -36,14 +36,14 @@ READ_ONLY=false
 RELOAD_KEY=
 REGISTRY_CONTROLLER_URL=http://registryctl:8080
 REGISTRY_CREDENTIAL_USERNAME=harbor_registry_user
-REGISTRY_CREDENTIAL_PASSWORD=uB0UEqYYPhyBplHnRe9u4VxXw4CgmXhA
-CSRF_KEY=RJEuWC05ZREDaBWbmksfWJNCkHKISZhI
-ROBOT_SCANNER_NAME_PREFIX=yAOAGtHB
+REGISTRY_CREDENTIAL_PASSWORD=yl4oixyEmhd4dD4oP0mLYWgAljGLTlSi
+CSRF_KEY=1Go1JHXYna5CxdAv51yXBW4A0p6svErj
+ROBOT_SCANNER_NAME_PREFIX=0a7ote7v
 PERMITTED_REGISTRY_TYPES_FOR_PROXY_CACHE=docker-hub,harbor,azure-acr,aws-ecr,google-gcr,quay,docker-registry,github-ghcr,jfrog-artifactory
 
 HTTP_PROXY=
 HTTPS_PROXY=
-NO_PROXY=localhost,registryctl,core,trivy-adapter,.internal,exporter,portal,registry,redis,log,notary-server,.local,db,nginx,postgresql,notary-signer,jobservice,127.0.0.1
+NO_PROXY=db,jobservice,127.0.0.1,notary-server,registry,nginx,portal,trivy-adapter,redis,.local,notary-signer,postgresql,.internal,registryctl,core,exporter,localhost,log
 
 PORT=8080
 
